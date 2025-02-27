@@ -23,7 +23,7 @@ class ContaBancaria:
             self.historico_transacao.append({f"   - {valor}R$   "})
             
     def consultarSaldo(self):
-        print(f"\nSeu saldo atual {self.nome_titular}: {self.saldo}R$\n")
+        print(f"\nSeu saldo atual, {self.nome_titular}: {self.saldo}R$\n")
     
     def exibirHistorico(self):
         print(f"\n{self.historico_transacao}\n")
